@@ -2,17 +2,17 @@
 
 :root{
 
-    --cor0:#44B3CE;
-    --cor1: #268C8C;
-    --cor2: #1C788C;
-    --cor3: #073040;
-    --cor4: #040A0D;
+    --cor0:#F2EBDC;
+    --cor1: #79C7D9;
+    --cor2: #932AA1;
+    --cor3: #9B5637;
+    --cor4: #553020;
 }
 
 
 header{
 
-    background-color: #040A0D;
+    background-color: var(--cor4);
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 100px;
     min-width: 300px;
@@ -46,7 +46,6 @@ body{
     margin: 0px;
     
     
-    
 
 }
 
@@ -71,14 +70,14 @@ main{
 main h1{
 
     text-align: center;
-    background-color: #268C8C;
-    color: var(--cor3);
+    background-color: var(--cor1);
+    color: var(--cor2);
     border-radius: 5px;
 }
 
 main h2{
     text-align: center;
-    background-color: #073040af;
+    background-color: var(--cor4);
     color: var(--cor0);
     border-radius: 5px;
     padding: 5px;
@@ -98,7 +97,7 @@ main a{
 
     color: var(--cor3);
     text-decoration: none;
-    background-color: #268c8c7b;
+    background-color: var(--cor3);
     border-radius: 5px;
     padding: 2px;
 }
@@ -120,10 +119,11 @@ main img{
 div.video{
 
     background-color: var(--cor4);
-    margin: 10px -25px;
+    margin: 25px -25px;
     padding: 10px;
     position: relative;
     padding-left: 28%;
+    padding-bottom: 50px;
     
 
 }
@@ -140,14 +140,36 @@ div.video iframe{
     
 }
 
+div#LH{
+
+    background-color: var(--cor4);
+    margin: 10px -25px;
+    padding: 10px;
+    position: relative;
+    padding-left: 28%;
+    
+
+}
+
+#twitter-tweet{
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    margin-left: 150px;
+
+    
+    
+}
+
 div{
     display: inline-block;
-    height: 300px;
     width: 300px;
-    border: 1px solid black;
-    border: 10px;
-    background-color: dimgray;
-    margin: 5px 40px;
+    margin-left:  -45px;
+    margin-top: -10px;
+    padding: 5px;
 }
 
 #q1{
@@ -170,7 +192,7 @@ div{
 footer {
 
     color: whitesmoke;
-    background-color: #040A0D;
+    background-color: var(--cor4);
     border-radius: 5px;
     border-bottom-left-radius:0px;
     border-bottom-right-radius: 0px;
